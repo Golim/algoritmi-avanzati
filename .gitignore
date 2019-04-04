@@ -3,3 +3,7 @@
 books/
 .vscode/
 vscode/
+
+# Extension
+*.log
+*tmp*
