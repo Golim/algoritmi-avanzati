@@ -37,7 +37,7 @@ L'hashing standard mira a randomizzare le cose, quindi l'hash di due vicini sar�
 Il LSH è una versione specializzata di hashing, che mira a mappare elementi vicini nello stesso *bucket* con una probabilità maggiore per punti vicini rispetto a quelli lontani.
 
 #### Alberi k-d
-TODO
+E' una struttura dati di space-partitioning, proposta per organizzare dei punti in uno spazio *d*-dimensionale. La radice dell'albero corrisponde all'intero spazio. Ad ogni nodo viene definito un sottoalbero destro e un sottoalbero sinistro da un test su una singola coordinata. E' molto utile per la tecnica dei nearest-neighbors.
 
 #### **Bibliografia**
 - Roberto Battiti, Mauro Brunato
