@@ -9,6 +9,8 @@ L'automazione è la chiave: una volta che è stato formulato il problema, si man
 
 L'esistenza di una funzione matematica da ottimizzare è, però, anche un limite che blocca l'adozione globale di questa tecnica.
 
+N.B. La funzione *goodness(x)* prende in input solo valori numerici
+
 ### Machine Learning
 Il Machine Learning obbliga a rinunciare ad un obiettivo *goodness(x)* chiaramente specificato: il modello di bontà può essere costruito dal Machine Learning da **dati abbondanti**.
 
