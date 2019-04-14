@@ -9,3 +9,5 @@ Appunti e materiale vario - UniTN 2019
 5. 
 6. [Regole, alberi decisionali e foreste](06-regole-alberi_decisionali-e-foreste/regole-alberi_decisionali-e-foreste.md)
 7. [Classifica e selezione delle features](07-classifica-selezione-features/classifica-selezione-features.md)
+8. [Modelli basati sulla fattorizzazione della matrice](08-modelli-fattorizzazione-matrice/modelli-fattorizzazione-matrice.md)
+9. [Modelli non lineari specfici](09-modelli-non-lineari-specifici/modelli-non-lineari-specifici.md)
