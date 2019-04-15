@@ -1,4 +1,4 @@
-# Regole, albero decisionale e foreste
+# Regole, alberi decisionali e foreste
 
 ## Regole
 Le regole sono metodi per condensare pepite di conoscenza in un modo comprensibile per l'uomo.
@@ -20,7 +20,7 @@ La gini impurity misura quanto spesso un elemento scelto randomicamente dall'ins
 Quando si ha a che fare con dati reali, sono frequenti le mancanze di valori. Se un'istanza raggiunge un nodo e la domanda non può essere risposta perchè manca il dato, si divide l'istanza in due e si mandano le due parti nei due rami. Quando i vari pezzi dell'istanza raggiungono le foglie, si fa la media tra gli output, o si utilizzano altre tecniche decisionali.
 
 ### Costruire una foresta decisionale
-L'idea di base è di usare un insieme di alberi per prendere decisioni in modo democratico. Per costruire alberi diversi si possono usare differenti set di esempi. Ogni albero isolato sarà piuttosto debolem ma la regola della maggioranza (o una media pesata) fornirà una risposta ragionevole.
+L'idea di base è di usare un insieme di alberi per prendere decisioni in modo democratico. Per costruire alberi diversi si possono usare differenti set di esempi. Ogni albero isolato sarà piuttosto debole, ma la regola della maggioranza (o una media pesata) fornirà una risposta ragionevole.
 
 #### **Bibliografia**
 - Roberto Battiti, Mauro Brunato
