@@ -4,12 +4,12 @@
 L'ottimizzazione è un processo per migliorare continuamente processi, decisioni, prodotti e servizi. E' correlato al processo decisionale, ma va oltre: il processo decisionale prende la miglior soluzione da un'insieme di soluzioni date, l'ottimizzazione **crea** attivamente nuove soluzioni.
 
 Quasi tutti i problemi di business possono essere formulati come trovare la decisione ottimale *x*, massimizzando una misura *goodness(x)* (bontà). Formalizzare un problema in questo modo incoraggia ad utilizzare obiettivi quantificabili, a capire gli intenti in modo misurabile e a focalizzarsi sulle policies, piuttosto che sui dettagli implementativi.
+La funzione *goodness(x)* prende in input solo valori numerici
 
 L'automazione è la chiave: una volta che è stato formulato il problema, si manda il modello di bontà ad un computer, che creerà e cercherà una o più scelte ottimali.
 
 L'esistenza di una funzione matematica da ottimizzare è, però, anche un limite che blocca l'adozione globale di questa tecnica.
 
-N.B. La funzione *goodness(x)* prende in input solo valori numerici
 
 ### Machine Learning
 Il Machine Learning obbliga a rinunciare ad un obiettivo *goodness(x)* chiaramente specificato: il modello di bontà può essere costruito dal Machine Learning da **dati abbondanti**.
