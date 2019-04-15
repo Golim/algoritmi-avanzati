@@ -4,7 +4,7 @@ Il vero apprendimento è associato a:
 - Riassumere una vasta gamma di eventi attraverso modelli compatti.
 - Unificare diversi casi, scoprendo le leggi esplicative sottostanti.
 
-L'apprendimento per esempi è un mezzo per raggiungere l'obiettivo della **generalizzazione**: la capacità di spiegare nuovi casi non incontrati durante la fase di apprendimento, predicendo nuovi output, nella stessa area di applicazione. Se l'obiettivo è la generalizzazione, è necessario stimare le performance in maniera molto accurata. OPsservare il comportamento del modello sugli esempi di apprendimento non garantisce una corretta generalizzazione e può condurre ad un ottimismo ingiustificato.
+L'apprendimento per esempi è un mezzo per raggiungere l'obiettivo della **generalizzazione**: la capacità di spiegare nuovi casi non incontrati durante la fase di apprendimento, predicendo nuovi output, nella stessa area di applicazione. Se l'obiettivo è la generalizzazione, è necessario stimare le performance in maniera molto accurata. Osservare il comportamento del modello sugli esempi di apprendimento non garantisce una corretta generalizzazione e può condurre ad un ottimismo ingiustificato.
 
 Le **feature** sono proprietà misurabili individualmente di un fenomeno osservato, hanno informazioni utili a derivare il valore di output.
 
