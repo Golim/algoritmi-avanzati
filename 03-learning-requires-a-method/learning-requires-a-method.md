@@ -38,6 +38,11 @@ E' quindi necessario avere un grande numero di esempi per allenare il sistema, m
 
 Se il numero di esempi classificati forniti è troppo piccolo, è necessario trovare un buon modo per partizionarli in due sottoinsiemi: uno per il training e uno per il testing.
 
+### RMS: Root Mean Square
+E' un metodo per misurare le performance confrontando l'output fornito dal sistema e l'output corretto fornito da un supervisore. Il valore dell'RMS di un insieme di valori è la radice quadrata della media aritmetica dei quadrati dei valori originali. Dato il vettore degli errori, il valore dell'RMS si calcola come:
+
+![RMS](img/rms.png)
+
 ### Cross-validation
 E' un metodo generalmente applicabile per prevedere le performance di di un modello su un set di convalida utilizzando esperimenti ripetuti, anzichè analisi matematiche. L'idea è quella di ripetere molti esperimenti di allenamento e testing, utilizzando diverse partizioni del set di esempi originale in due sottoinsiemi, uno per il training ed uno per il testing, e calcolando la media dei risultati.
 
@@ -66,6 +71,9 @@ Il numero di elementi correttamente classificati con la classe corretta (veri po
 Il numero di veri positivi diviso per il numero di elementi che che appartengono effettivamente alla classe positiva.
 
 `precisione = veri positivi / (veri positivi + falsi negativi)`
+
+### Matrice di confusione
+Una matrice di confusione spiega come i casi delle classi differenti sono classificati correttamente o confusi come mebri della classe sbagliata. Restituisce una rappresentazione dell'accuratezza della classificazione statistica. Ogni colonna rappresenta i valori predetti, mentre ogni riga rappresenta i valori reali.
 
 #### **Bibliografia**
 - Roberto Battiti, Mauro Brunato

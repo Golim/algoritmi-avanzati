@@ -16,7 +16,9 @@ La flessibilità è data dalla possibilità di avere tecniche di classificazione
 - **Regressione**: serve a predire un numero reale. L'output è ottenuto come semplice media degli output dei k vicini.
 
 ## Weighted K Nearest Neighbors
-L'output viene calcolato come media degli output dei k vicini, pesata con l'inverso della distanza dal nuovo input e il valore memorizzato.
+L'output viene calcolato come media degli output dei k vicini, pesata con l'inverso della distanza dal nuovo input e il valore memorizzato. Se *l* è il numero di esempi classificati disponibili con *k <= l*, consideranto un vettore di feature *x* l'algoritmo per stimare l'output corrispondente *y* consiste di due step:
+1. Trovare i *k* indici nell'insieme per il training i cui vettori delle feature sono più vicini al vettore dato *x*.
+2. ![wknn](img/wknn.png)
 
 Questa tecnica è semplice da implementare e spesso raggiunge bassi livelli di errore. Di contro, necessita di molta memoria e computazioni nella fase predittiva.
 

@@ -13,7 +13,17 @@ Nella regressione logistica, la maggior parte del lavoro è fatto da un modello 
 
 Una **curva logistica** è una funzione *funzione sigmoidea* comune. Il termine *logistica* è stato dato quando questa funzione fu introdotta per lo studio della crescita di una popolazione: il tasso di riproduzione in una popolazione è proporzionale alla popolazione esistente e alla quantità di risorse disponibili. Quando la popolazione cresce, la quantità di risorse diminuisce e diventa zero quando la popolazione raggiunge la portata del sistema. La fase iniziale della crescita è approssimativamente esponenziale. Quando la saturazione comincia, la crescita rallenta e infine si ferma.
 
-I migliori valori per i pesi della trasformazione lineare sono determinati massimizzando la stima della verosimiglianza, cioè massimizzando la probabilità di ottenere i valori di output effettivamente ottenuti sugli esempi classificati. Le probabilità dei casi indipendenti individuali sono moltiplicate. L'espressione di verosimiglianza che si ottiene è non lineare, quindi non è possibile trovare un'espressione per i valori dei pesi che massimizzi il valore della verosimiglianza: è necessario utilizzare un proceso *iterativo*. Questo processo comincia con un tentativo, che produce una soluzione, e lo modifica leggermente, spostandosi nella direzione del gradiente negativo, per vedere se la soluzione può essere migliorata. L'obiettivo è massimizzare la generalizzazione. Questo processo va fermato presto: quando i risultati della stima della generalizzazione misurati da un set di validazione sono massimali.
+Una funzione logistica standard su una variabile *t*, che può essere vista come il tempo, è:
+
+![Funzione logistica standard](img/funzione-logistica-standard.png)
+
+Una funzione logistica con variabile *x*, che è l'output del modello lineare, è:
+
+![Funzione logistica](img/funzione-logistica.png)
+
+I migliori valori per i pesi della trasformazione lineare sono determinati massimizzando la stima della **verosimiglianza**, cioè massimizzando la probabilità di ottenere i valori di output effettivamente ottenuti sugli esempi classificati. Le probabilità dei casi indipendenti individuali sono moltiplicate. L'espressione di verosimiglianza che si ottiene è non lineare, quindi non è possibile trovare un'espressione per i valori dei pesi che massimizzi il valore della verosimiglianza: è necessario utilizzare un proceso *iterativo*. Questo processo comincia con un tentativo, che produce una soluzione, e lo modifica leggermente, spostandosi nella direzione del gradiente negativo, per vedere se la soluzione può essere migliorata. L'obiettivo è massimizzare la generalizzazione. Questo processo va fermato presto: quando i risultati della stima della generalizzazione misurati da un set di validazione sono massimali. La formula della verosimiglianza (*likelihood*), è:
+
+![Verosimiglianza](img/verosimiglianza.png)
 
 ## Regressione ponderata localmente
 Permette di predire l'output per un nuovo input comparandolo con i più vicini esempi classificati, ritornando come output quello del più vicino, o una combinazione di un insieme selezionato degli esempi più vicini.

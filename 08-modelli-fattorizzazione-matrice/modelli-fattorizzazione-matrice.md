@@ -1,5 +1,7 @@
 # Modelli basati sulla fattorizzazione della matrice
 
+**Nota**: questo intero capitolo **non** sarà richiesto all'esame.
+
 ## Filtraggio e raccomandazione collaborativa
 E' un metodo per predire gli interessi di una persona raccogliendo informazioni riguardanti il gusto da molte altre persone che collaborano. L'assuzione di base è che che coloro che hanno concordato su qualcosa in passato, tenderanno a concordare di nuovo in futuro.
 
