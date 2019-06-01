@@ -12,3 +12,4 @@ Appunti e materiale vario - UniTN 2019
 8. [Modelli basati sulla fattorizzazione della matrice](08-modelli-fattorizzazione-matrice/modelli-fattorizzazione-matrice.md)
 9. [Modelli non lineari specfici](09-modelli-non-lineari-specifici/modelli-non-lineari-specifici.md)
 10. [Reti Neurali](10-reti-neurali/reti-neurali.md)
+11. [Deep networks](11-deep-networks/deep-networks.md)
