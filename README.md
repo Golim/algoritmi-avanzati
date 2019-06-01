@@ -13,3 +13,9 @@ Appunti e materiale vario - UniTN 2019
 9. [Modelli non lineari specfici](09-modelli-non-lineari-specifici/modelli-non-lineari-specifici.md)
 10. [Reti Neurali](10-reti-neurali/reti-neurali.md)
 11. [Deep networks](11-deep-networks/deep-networks.md)
+12. .
+13. .
+14. .
+15. .
+16. .
+17. [Clustering top-down](17-clustering-top-down/clustering-top-down.md)
