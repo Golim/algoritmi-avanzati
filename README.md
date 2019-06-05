@@ -19,3 +19,4 @@ Appunti e materiale vario - UniTN 2019
 15. .
 16. .
 17. [Clustering top-down](17-clustering-top-down/clustering-top-down.md)
+18. [Clustering bottom-up](18-clustering-bottom-up/clustering-bottom-up.md)
