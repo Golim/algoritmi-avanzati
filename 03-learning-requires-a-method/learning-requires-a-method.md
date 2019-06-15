@@ -62,15 +62,17 @@ Quando si misurano le performance di un modello, si possono incontrare diversi t
 ### Accuratezza
 E' la proporzione tra i risultati veri forniti dal classificatore (veri positivi e veri negativi) e il numero di elementi appartenenti alla classe positiva.
 
+`accuratezza = veri positivi / totale delle predizioni`
+
 ### Precisione
 Il numero di elementi correttamente classificati con la classe corretta (veri positivi) diviso per il numero di elementi classificati come positivi (veri positivi e falsi positivi).
 
 `precisione = veri positivi / (veri positivi + falsi positivi)`
 
-### Recupero
+### Recall
 Il numero di veri positivi diviso per il numero di elementi che che appartengono effettivamente alla classe positiva.
 
-`precisione = veri positivi / (veri positivi + falsi negativi)`
+`recall = veri positivi / (veri positivi + falsi negativi)`
 
 ### Matrice di confusione
 Una matrice di confusione spiega come i casi delle classi differenti sono classificati correttamente o confusi come mebri della classe sbagliata. Restituisce una rappresentazione dell'accuratezza della classificazione statistica. Ogni colonna rappresenta i valori predetti, mentre ogni riga rappresenta i valori reali.

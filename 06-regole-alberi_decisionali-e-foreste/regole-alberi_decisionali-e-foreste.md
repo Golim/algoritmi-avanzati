@@ -11,12 +11,12 @@ Per costruire un albero decisionale, si mette la domanda più informativa per pr
 E' necessario avere un metodo per misurare quantitativamente la purezza, i metodi più utilizzati sono: information gain e gini impurity.
 
 ###### Entropia di Shannon
-Si suppone di campionare un insieme associato ad un nodo interno o ad una foglia dell'albero. Si otterranno esempi di una classe *y* con una probabilità *P(y)*, proporzionale alla frazione di casi della classe presente nell'insieme. L'incertezza statistica nella classe ottenuta è misurata dall'entropia di Shannon della distribuzione della probabilità dell'esempio classificato.
+Si suppone di campionare un insieme associato ad un nodo interno o ad una foglia dell'albero. Si otterranno esempi di una classe *y* con una probabilità *P(y)*, proporzionale alla frazione di casi della classe presente nell'insieme. L'incertezza statistica nella classe ottenuta è misurata dall'entropia di Shannon della distribuzione della probabilità dell'esempio classificato. L'entropia misura quanto sono *puri* o impuri degli insiemi.
 
 ![Shannon](img/shannon.png)
 
 #### Information gain
-L'information gain è la media della riduzione nell'entropia dopo che si conosce la risposta.
+L'information gain è la media della riduzione nell'entropia dopo che si conosce la risposta. E' la differenza tra l'entropia di un insieme prima di splittarlo e l'entropia dei due sottoinsiemi dopo lo split, pesati per il numero dei loro componenti.
 
 ![Information gain](img/ig.png)
 

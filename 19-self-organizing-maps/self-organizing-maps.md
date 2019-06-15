@@ -1,4 +1,7 @@
 # Self-organizing maps
+
+**Nota**: questo intero capitolo **non** sarà richiesto all'esame.
+
 Il clustering identifica dei gruppi di dati simili, in alcuni casi con una struttura gerarchica. Se è disponibile una rappresentazione interna, è possibile rappresentare ogni gruppo con un prototipo. In questo capitolo si tratterà di prototipi organizzati secondo una struttura a griglia regolare e di come si influenzano a vicenda se sono vicini nella griglia. L'idea è di fare un clustering dei dati e, allo stesso tempo, di visualizzare questa struttura del cluster su una mappa bidimensionale.
 
 Per problemi con alte dimensioni (con più di due coordinate) non esiste una soluzione esatta, ma si mira ad un'approssimazione che sufficiente per ragionare sui dati.

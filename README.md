@@ -22,3 +22,5 @@ Appunti e materiale vario - UniTN 2019
 18. [Clustering bottom-up](18-clustering-bottom-up/clustering-bottom-up.md)
 19. [Self-organizing maps](19-self-organizing-maps/self-organizing-maps.md)
 20. [Dimensionality reduction by projection](20-dimensionality-reduction-by-projection/dimensionality-reduction-by-projection.md)
+
+[Link utili](link-utili/link-utili.md)

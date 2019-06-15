@@ -5,7 +5,9 @@ Nell'apprendimento supervisionato un sistema è allenato da un supervisore (inse
 
 ## Nearest Neighbors
 Il metodo dei nearest neighbors che funziona come segue:
-1. Gli esempi classificati sono salvati senza che nessuna azione sia effettuata fino a che un nuovo modello di input richiede un valore di output. Quando arriva un nuovo modello di input, il sistema cerca in memoria l'esempio più *vicino* al nuovo modello e l'output è determinato ritornando l'output memorizzato per il modello più vicino.
+1. Gli esempi classificati sono salvati senza che nessuna azione sia effettuata fino a che un nuovo modello di input richiede un valore di output.
+2. Quando arriva un nuovo input, il sistema cerca in memoria l'esempio più *vicino* al nuovo modello.
+3. L'output è determinato ritornando l'output memorizzato per il modello più vicino.
 
 ## K Nearest Neighbors
 E' una tecnica più flessibile e robusta, che considera un set di *k* vicini invece che uno solo.
